@@ -28,7 +28,7 @@ export default function Home() {
           <a href="https://edrisetutoring.org" className=" underline">
             nonprofit
           </a>{" "}
-          educating and supporting hundreds of inner-city students during the pandemic.
+          educating and supporting hundreds of inner-city students during the pandemic
         </li>
         </ul>
         <p className="font-bold mt-5">Other cool things I&apos;ve done:</p>
