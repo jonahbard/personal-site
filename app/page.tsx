@@ -5,9 +5,9 @@ export default function Home() {
     <main className="m-10 lg:m-24">
       <div className="flex flex-col">
         <h1 className="font-semibold text-3xl">Jonah Bard</h1>
-        <p className="pt-5">I'm a developer and designer who loves creating impactful technology. </p>
+        <p className="pt-5">I&apos;m a developer and designer who loves creating impactful technology. </p>
         <p className="pt-5">Most recently, I built a few educational resources: <a className="text-purple-700  underline" href="https://layup.pro">layup.pro</a>, <a className=" text-blue-700 underline" href="https://apps.apple.com/us/app/quizzard-master-test-timing/id6446804987"> quizzard</a>, and <a className="text-green-700  underline" href="https://theprogressbar.co">the progress bar</a>.</p>
-        <p className="pt-5">Right now I’m building a tool for teaching and encouraging kids worldwide to read.</p>
+        <p className="pt-5">Right now I&apos;m building a tool for teaching and encouraging kids worldwide to read.</p>
         <p className="pt-5 font-bold">Projects</p>
         <ul className="list-disc pl-5">
           <li>Designed + built a new <a href="https://layup.pro" className=" underline">site</a> for thousands of students to find the best courses</li>
@@ -31,7 +31,7 @@ export default function Home() {
           educating and supporting hundreds of inner-city students during the pandemic.
         </li>
         </ul>
-        <p className="font-bold mt-5">Other cool things I've done:</p>
+        <p className="font-bold mt-5">Other cool things I&apos;ve done:</p>
         <ul className="list-disc pl-5">
           <li>
             Going to an all-expenses-paid{" "}
