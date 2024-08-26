@@ -2,7 +2,43 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import Komet from "next/font/local";
+import AbrilTitling from "next/font/local";
+
+//const inter = Inter({ subsets: ["latin"] });
+
+export const abrilTitling = AbrilTitling({
+  src: './fonts/abriltitling.ttf',
+  display: 'swap',
+  variable: '--font-abril-titling',
+})
+
+const komet = Komet({
+  src: [
+    {
+      path: './fonts/komet/fonnts.com-Komet_Regular.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './fonts/komet/fonnts.com-Komet_Regular_Italic.otf',
+      weight: '400',
+      style: 'italic',
+    },
+    {
+      path: './fonts/komet/fonnts.com-Komet_Bold.otf',
+      weight: '600',
+      style: 'bold',
+    },
+    {
+      path: './fonts/komet/fonnts.com-Komet_Bold_Italic.otf',
+      weight: '600',
+      style: 'bold italic',
+    },
+  ],
+  display: 'swap',
+  variable: '--font-komet',
+})
 
 export const metadata: Metadata = {
   title: "Jonah Bard",
@@ -15,8 +51,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${abrilTitling.variable} ${komet.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }

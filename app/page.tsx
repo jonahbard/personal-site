@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="m-10 lg:m-24">
+    <main className="mx-10 my-20 lg:mx-48 lg:my-24">
       <div className="flex flex-col">
-        <h1 className="font-semibold text-3xl">Jonah Bard</h1>
+        <h1 className="text-5xl font-title">Jonah Bard</h1>
         <p className="pt-5">I&apos;m a developer and designer who loves creating impactful technology. </p>
         <p className="pt-5">Most recently, I built a few educational resources: <a className="text-purple-700  underline" href="https://layup.pro">layup.pro</a>, <a className=" text-blue-700 underline" href="https://apps.apple.com/us/app/quizzard-master-test-timing/id6446804987"> quizzard</a>, and <a className="text-green-700  underline" href="https://theprogressbar.co">the progress bar</a>.</p>
         <p className="pt-5">Right now I&apos;m building a tool for teaching and encouraging kids worldwide to read.</p>
@@ -31,7 +32,7 @@ export default function Home() {
           educating and supporting hundreds of inner-city students during the pandemic
         </li>
         </ul>
-        <p className="font-bold mt-5">Other cool things I&apos;ve done:</p>
+        <p className="font-bold mt-5">Experiences</p>
         <ul className="list-disc pl-5">
           <li>
             Going to an all-expenses-paid{" "}
@@ -48,7 +49,8 @@ export default function Home() {
             @ UATX
           </li>
           <li>
-            Traveled solo to 10 countries around Europe and Asia (photos coming soon!)
+            <Link className="underline" href="/travel">Traveled</Link>
+            &nbsp;solo to 10 countries around Europe and Asia
           </li>
           <li>
             Ventured across Europe, Asia, and Africa{" "}
@@ -59,9 +61,9 @@ export default function Home() {
           </li>
         </ul>
 
-        <p className="mt-5">Connect and check out more of my projects on <a href="https://linkedin.com/in/jonahbard" className=" underline">LinkedIn</a> and <a className=" underline" href="https://github.com/jonahbard">GitHub</a>.</p>
+        <p className="mt-5"><a href="https://linkedin.com/in/jonahbard" className=" underline">LinkedIn</a>, <a className=" underline" href="https://github.com/jonahbard">GitHub</a>, <a className=" underline" href="https://twitter.com/jonahbard__">Twitter</a></p>
         
-        <p className="mt-5"> You can also email me: hi at jonahbard dot com.</p>
+        <p className="mt-5"> Email: hi at jonahbard dot com.</p>
 
         <a className="mt-5 underline" href="https://jonahbard.notion.site/886512a83a704bfa97f1502846acb175?v=e26556a172c6456bad4f773af2010764"> writing↗︎</a>
       </div>
