@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import aspectRatio from '@tailwindcss/aspect-ratio';
 
 const config: Config = {
   content: [
@@ -8,13 +9,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      aspectRatio: {
+        '1/1': [1, 1].toString(),
+        '16/9': [16, 9].toString(),
       },
     },
   },
-  plugins: [],
+  plugins: [
+    aspectRatio,
+  ],
 };
 export default config;
