@@ -7,7 +7,7 @@ import AbrilTitling from "next/font/local";
 
 //const inter = Inter({ subsets: ["latin"] });
 
-export const abrilTitling = AbrilTitling({
+const abrilTitling = AbrilTitling({
   src: './fonts/abriltitling.ttf',
   display: 'swap',
   variable: '--font-abril-titling',
