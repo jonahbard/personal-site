@@ -31,9 +31,9 @@ const komet = Komet({
       style: 'bold',
     },
     {
-      path: './fonts/komet/fonnts.com-Komet_Bold_Italic.otf',
-      weight: '600',
-      style: 'bold italic',
+      path: './fonts/komet/fonnts.com-Komet_Medium.otf',
+      weight: '500',
+      style: 'medium',
     },
   ],
   display: 'swap',

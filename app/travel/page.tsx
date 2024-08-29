@@ -7,7 +7,7 @@ export default function Page() {
       <h1 className="text-4xl text-white font-black mx-8 lg:mx-24 pt-24 lg:pt-40 bg-black mb-5 font-title">
         <Link href="/" className="font-light italic text-gray-200 font-title">Jonah Bard //  </Link>
         &nbsp;Travel
-        </h1>
+      </h1>
       <div className="mx-8 lg:mx-24 flex flex-col justify-center bg-black space-y-[0.5rem] pb-32">
       <p className="text-white pt-4 lg:pt-10 font-body">Amsterdam, Netherlands  •  Florence, Italy </p>
         <Image 
