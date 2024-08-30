@@ -65,7 +65,7 @@ export default function Home() {
         
         <p className="mt-5"> Email: hi at jonahbard dot com.</p>
 
-        <a className="mt-5 underline" href="https://jonahbard.notion.site/886512a83a704bfa97f1502846acb175?v=e26556a172c6456bad4f773af2010764"> writing↗︎</a>
+        <a className="mt-5 underline" href="/writing"> writing↗︎</a>
       </div>
 
     </main>
