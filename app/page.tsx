@@ -11,18 +11,25 @@ export default function Home() {
         <p className="pt-5">Right now I&apos;m building a tool for teaching and encouraging kids worldwide to read.</p>
         <p className="pt-5 font-bold">Projects</p>
         <ul className="list-disc pl-5">
-          <li>Designed + built a new <a href="https://layup.pro" className=" underline">site</a> for thousands of students to find the best courses</li>
+          <li>Designed + built a new <a href="https://layup.pro" className=" underline">site</a> where thousands of students go to find the best courses</li>
           <li>Launched a campus-wide matching initiative {" "}
             <a href="https://www.notion.so/ac1d9d487de4447480c50903d6ab0465?pvs=21" className=" underline"> 
             connecting
             </a>{" "}
-            over 2400 students at Dartmouth (54% of the college)
+            over 2400 students
           </li>
           <li>
-            Developing a web platform delivering educational tools for low-connectivity areas with{" "}
+            Developed a web platform delivering educational tools for low-connectivity areas with{" "}
             <a href="https://dali.dartmouth.edu" className=" underline">
             DALI
           </a>
+          </li>
+          <li>
+            Built a timed quiz practice{" "}
+            <a href="https://apps.apple.com/us/app/quizzard-master-test-timing/id6446804987" className=" underline">
+              app
+            </a>{" "}
+            with 2,000+ downloads
           </li>
           <li>
           I built and scaled a{" "}
@@ -35,7 +42,16 @@ export default function Home() {
         <p className="font-bold mt-5">Experiences</p>
         <ul className="list-disc pl-5">
           <li>
-            Going to an all-expenses-paid{" "}
+            Youngest programmer at <a className="underline" href="https://recurse.com">Recurse</a>, an exclusive retreat for software engineers
+          </li>
+          <li>
+            Studying computer science and education at{" "}
+            <a href="https://dartmouth.edu" className=" underline">
+              Dartmouth
+            </a>
+          </li>
+          <li>
+            Went to an all-expenses-paid{" "}
             <a href="http://fabric.camp" className=" underline">
               applied rationality seminar
             </a>{" "}
