@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="mx-10 my-20 lg:mx-48 lg:my-24">
+    <main className="mx-10 my-20 lg:mx-56 xl:mx-80 lg:my-24">
       <div className="flex flex-col">
         <h1 className="text-5xl font-title">Jonah Bard</h1>
-        <p className="pt-5">I&apos;m a developer and designer who loves creating impactful technology. </p>
-        <p className="pt-5">Most recently, I built a few educational resources: <a className="text-purple-700  underline" href="https://layup.pro">layup.pro</a>, <a className=" text-blue-700 underline" href="https://apps.apple.com/us/app/quizzard-master-test-timing/id6446804987"> quizzard</a>, and <a className="text-green-700  underline" href="https://theprogressbar.co">the progress bar</a>.</p>
+        <p className="pt-5">I love designing and building impactful software. </p>
+        <p className="pt-5">Most recently, I developed a few educational resources: <a className="text-purple-700  underline" href="https://layup.pro">layup.pro</a>, <a className=" text-blue-700 underline" href="https://apps.apple.com/us/app/quizzard-master-test-timing/id6446804987"> quizzard</a>, and <a className="text-green-700  underline" href="https://theprogressbar.co">the progress bar</a>.</p>
         <p className="pt-5">Right now I&apos;m building a tool for teaching and encouraging kids worldwide to read.</p>
         <p className="pt-5 font-bold">Projects</p>
         <ul className="list-disc pl-5">
