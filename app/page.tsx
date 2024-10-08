@@ -79,9 +79,9 @@ export default function Home() {
 
         <p className="mt-5"><a href="https://linkedin.com/in/jonahbard" className=" underline">LinkedIn</a>, <a className=" underline" href="https://github.com/jonahbard">GitHub</a>, <a className=" underline" href="https://twitter.com/jonahbard__">Twitter</a></p>
         
-        <p className="mt-5"> Email: hi at jonahbard dot com.</p>
+        <p className="mt-5">Email: hi at jonahbard dot com.</p>
 
-        <a className="mt-5 underline" href="/writing"> writing↗︎</a>
+        <p className="mt-5"><a href="/writing" className=" underline">My writing ↗︎</a></p>
       </div>
 
     </main>

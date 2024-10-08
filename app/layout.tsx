@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
 import Komet from "next/font/local";
@@ -34,7 +33,7 @@ const komet = Komet({
       path: './fonts/komet/fonnts.com-Komet_Medium.otf',
       weight: '500',
       style: 'medium',
-    },
+    }
   ],
   display: 'swap',
   variable: '--font-komet',
