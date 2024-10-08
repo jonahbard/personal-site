@@ -93,19 +93,19 @@ li {
 }
 
 .prose h1 {
-  @apply text-4xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-4xl font-medium mt-6 mb-2;
 }
 
 .prose h2 {
-  @apply text-xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-xl font-medium  mt-6 mb-2;
 }
 
 .prose h3 {
-  @apply text-xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-xl font-medium mt-6 mb-2;
 }
 
 .prose h4 {
-  @apply text-lg font-medium tracking-tight mt-6 mb-2;
+  @apply text-lg font-medium mt-6 mb-2;
 }
 
 .prose strong {
@@ -128,4 +128,12 @@ li {
 
 pre::-webkit-scrollbar {
   display: none;
+}
+
+.prose h1, /*.prose h2, .prose h3, .prose h4, */.prose h1 a /*.prose h2 a, .prose h3 a, .prose h4 a */ {
+  font-family: var(--font-abril-titling) !important; /* Force the font */
+}
+
+.prose h2, .prose h3, .prose h4,.prose h2 a, .prose h3 a, .prose h4 a {
+  font-family: var(--font-komet) !important; /* Force the font */
 }
