@@ -7,10 +7,10 @@ export default function Home() {
       <div className="flex flex-col">
         <h1 className="text-5xl font-title">Jonah Bard</h1>
         <p className="pt-5">I love designing and building impactful software. </p>
-        <p className="pt-5">Most recently, I developed a few educational resources: <a className="text-purple-700  underline" href="https://layup.pro">layup.pro</a>, <a className=" text-blue-700 underline" href="https://apps.apple.com/us/app/quizzard-master-test-timing/id6446804987"> quizzard</a>, and <a className="text-green-700  underline" href="https://theprogressbar.co">the progress bar</a>.</p>
         <p className="pt-5">Right now I&apos;m building a tool for teaching and encouraging kids worldwide to read.</p>
         <p className="pt-5 font-bold">Projects</p>
         <ul className="list-disc pl-5">
+          <li>Designed + co-built <a className=" underline" href="https://github.com/jonahbard/all-good-things/">a better news app</a> ft. everything but the hysteria and negativity</li>
           <li>Designed + built a new <a href="https://layup.pro" className=" underline">site</a> where thousands of students go to find the best courses</li>
           <li>Launched a campus-wide matching initiative {" "}
             <a href="https://www.notion.so/ac1d9d487de4447480c50903d6ab0465?pvs=21" className=" underline"> 
@@ -36,11 +36,14 @@ export default function Home() {
           <a href="https://edrisetutoring.org" className=" underline">
             nonprofit
           </a>{" "}
-          educating and supporting hundreds of inner-city students during the pandemic
+          educating and supporting hundreds of inner-city students
         </li>
         </ul>
         <p className="font-bold mt-5">Experiences</p>
         <ul className="list-disc pl-5">
+          <li>
+            Software Engineer Intern at <a className="underline" href="https://spacex.com">SpaceX</a> building internal ERP tools 
+          </li>
           <li>
             Youngest programmer at <a className="underline" href="https://recurse.com">Recurse</a>, an exclusive retreat for software engineers
           </li>
@@ -67,13 +70,6 @@ export default function Home() {
           <li>
             <Link className="underline" href="/travel">Traveled</Link>
             &nbsp;solo to 10 countries around Europe and Asia
-          </li>
-          <li>
-            Ventured across Europe, Asia, and Africa{" "}
-            <a href="https://kivunim.org" className=" underline">
-              studying
-            </a>{" "}
-            religious history, foreign politics, and intercultural relations
           </li>
         </ul>
 
