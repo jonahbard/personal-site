@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex flex-col">
         <h1 className="text-5xl font-title">Jonah Bard</h1>
         <p className="pt-5">I love designing and building impactful software. </p>
-        <p className="pt-5">Right now I&apos;m building a tool for teaching and encouraging kids worldwide to read.</p>
+        <p className="pt-5">Right now I&apos;m building a pedagogical tool that makes reading utterly addictive.</p>
         <p className="pt-5 font-bold">Projects</p>
         <ul className="list-disc pl-5">
           <li>Designed + co-built <a className=" underline" href="https://github.com/jonahbard/all-good-things/">a better news app</a> ft. everything but the hysteria and negativity</li>
