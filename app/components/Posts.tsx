@@ -5,6 +5,8 @@ import { getBlogPosts } from '@/app/writing/utils'
 export default function BlogPosts() {
   let allBlogs = getBlogPosts()
 
+  let secretPosts = ['positivity', 'burn-the-books']
+
   return (
     <div className="mt-5">
       {allBlogs
@@ -16,6 +18,7 @@ export default function BlogPosts() {
           }
           return 1
         })
+        .filter(post => secretPosts.indexOf(post.slug) === -1)
         .map((post) => (
           <Link
             key={post.slug}
