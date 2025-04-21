@@ -91,7 +91,7 @@ export default function Blog({ params }: { params: any }) {
           {post.metadata.publishedAt}
         </p>
       </div> */}
-      <article className="prose mx-10 md:mx-36 lg:mx-72 mb-24">
+      <article className="prose mx-10 md:mx-36 lg:mx-72 mb-24 xl:mx-96">
         <CustomMDX source={post.content} />
       </article>
     </section>
