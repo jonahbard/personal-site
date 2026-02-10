@@ -12,14 +12,14 @@ export default function Home() {
         <ul className="list-disc pl-5">
           <li>Designed + co-built <a className=" underline" href="https://github.com/jonahbard/all-good-things/">a better news app</a> ft. everything but the hysteria and negativity</li>
           <li>Designed + built a new <a href="https://layup.pro" className=" underline">site</a> where 4000+ students go to find the best courses</li>
-          <li>Launched a campus-wide matching initiative {" "}
+          <li>Launched a campus-wide matchmaking initiative, {" "}
             <a href="https://www.notion.so/ac1d9d487de4447480c50903d6ab0465?pvs=21" className=" underline"> 
             connecting
             </a>{" "}
             over 2400 students
           </li>
           <li>
-            Developed a web platform delivering educational tools for low-connectivity areas with{" "}
+            Developed a learning management system for low-connectivity areas with{" "}
             <a href="https://dali.dartmouth.edu" className=" underline">
             DALI
           </a>
@@ -32,7 +32,7 @@ export default function Home() {
             with 2,000+ downloads
           </li>
           <li>
-          I built and scaled a{" "}
+          Founded a{" "}
           <a href="https://edrisetutoring.org" className=" underline">
             nonprofit
           </a>{" "}
@@ -42,7 +42,7 @@ export default function Home() {
         <p className="font-bold mt-5">Experiences</p>
         <ul className="list-disc pl-5">
           <li>
-            Software Engineer Intern at <a className="underline" href="https://spacex.com">SpaceX</a> building internal ERP tools 
+            Software Engineering Intern at <a className="underline" href="https://spacex.com">SpaceX</a> building internal ERP tools 
           </li>
           <li>
             Youngest programmer at <a className="underline" href="https://recurse.com">Recurse</a>, an exclusive retreat for software engineers
@@ -54,18 +54,11 @@ export default function Home() {
             </a>
           </li>
           <li>
-            Went to an all-expenses-paid{" "}
+            Went to an {" "}
             <a href="http://fabric.camp" className=" underline">
-              applied rationality seminar
+              applied rationality program
             </a>{" "}
             @ Oxford
-          </li>
-          <li>
-            Attended an awesome all-expenses-paid{" "}
-            <a href="https://www.uaustin.org/forbidden-courses" className=" underline">
-              academic seminar
-            </a>{" "}
-            @ UATX
           </li>
           <li>
             <Link className="underline" href="/travel">Traveled</Link>
