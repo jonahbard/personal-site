@@ -11,7 +11,7 @@ export default function Home() {
         <p className="pt-5 font-bold">Projects</p>
         <ul className="list-disc pl-5">
           <li>Designed + co-built <a className=" underline" href="https://github.com/jonahbard/all-good-things/">a better news app</a> ft. everything but the hysteria and negativity</li>
-          <li>Designed + built a new <a href="https://layup.pro" className=" underline">site</a> where thousands of students go to find the best courses</li>
+          <li>Designed + built a new <a href="https://layup.pro" className=" underline">site</a> where 4000+ students go to find the best courses</li>
           <li>Launched a campus-wide matching initiative {" "}
             <a href="https://www.notion.so/ac1d9d487de4447480c50903d6ab0465?pvs=21" className=" underline"> 
             connecting
@@ -26,7 +26,7 @@ export default function Home() {
           </li>
           <li>
             Built a timed quiz practice{" "}
-            <a href="https://apps.apple.com/us/app/quizzard-master-test-timing/id6446804987" className=" underline">
+            <a href="https://github.com/jonahbard/quizzard" className=" underline">
               app
             </a>{" "}
             with 2,000+ downloads
